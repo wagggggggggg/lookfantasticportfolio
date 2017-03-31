@@ -1,0 +1,85 @@
+//Logo styles for Look Amazing and digi icon
+
+.logo {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+.secure {
+	margin-top: 10px;
+}
+
+//Align the digi icon to the right when in dekstop view
+.right {
+	text-align: right;
+}
+.digi {
+	height: 100px;
+	width: 100px;
+}
+
+//All styles for modal which includes paypal modal and alipay modal. Links to the classess and the .close is the cross for user experience
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+.closePayPal {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	&:hover {
+		color: black;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	&:focus {
+		color: black;
+		text-decoration: none;
+		cursor: pointer;
+	}
+}
+.closeAliPay {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	&:hover {
+		color: black;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	&:focus {
+		color: black;
+		text-decoration: none;
+		cursor: pointer;
+	}
+}
+
+//Media quereies
+@media screen and (max-width: 480px) {
+	.imagesmobile {
+		height: 150%;
+		width: 105%;
+	}
+}
+@media screen and (max-width: 780px) {
+	.digi {
+		display: none;
+	}
+}
